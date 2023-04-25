@@ -9,15 +9,19 @@
  */
 int main(void)
 {
-	int i;
+	int n = 97;
 
-	for (k = 97; i < 123; i++)
+	while (n <= 122)
 	{
-		if (i != 101 && i != 113)
+		if (n == 101 || n== 113)
 		{
-			putchar(i);
+			n++;
+			continue;
 		}
-		putchar('\n');
-		return (0);
-
+		putchar(n);
+		n++;
+	}
+	putchar('\n');
+	return (0);
 }
+
