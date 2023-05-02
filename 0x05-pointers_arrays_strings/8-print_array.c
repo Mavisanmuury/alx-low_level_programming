@@ -4,7 +4,7 @@
  * print_array - a function that prints n elements of a array
  * @a: array name
  * @n: is the number of elements OF the array to be printed
- * Return: a nd n inputs
+ * Return: a and n inputs
  */
 void print_array(int *a, int n)
 {
