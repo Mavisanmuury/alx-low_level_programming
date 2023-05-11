@@ -7,7 +7,7 @@ int _strlen_recursion(char *s);
  * is_palindrome - checks if a string is a palindrome
  * @s: string to reverse
  *
- * Return: 1 if is is, 0 its not
+ * Return: 1 if it is, 0 its not
  */
 int is_palindrome(char *s)
 {
@@ -37,7 +37,7 @@ int _strlen_recursion(char *s)
  *
  * Return: 1 if palindrome, 0 if not
  */
-in check_pal(char *s, int i, int len)
+int check_pal(char *s, int i, int len)
 {
 	if (*(s + i) != *(s + len - 1)
 			return (0);
